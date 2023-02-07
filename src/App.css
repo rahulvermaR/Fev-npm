@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Din Next", sans-serif;
+}
+.app {
+  margin: 0 auto;
+
+  width: 100vw;
+  min-height: 100vh;
+  background: url(https://global-uploads.webflow.com/5d9d02c4b01a536c7d5d4a35/5e83776fbc21657cbbdb8ef1_customer-bg.svg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  position: relative;
+  /* background-position: 100px -400px; */
+  animation: App-logo-spin infinite 60s linear;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+@keyframes App-logo-spin {
+  0% {
+    background-position: -1300px -450px;
+  }
+  50% {
+    background-position: -2500px -450px;
+  }
+  100% {
+    background-position: -1300px -450px;
+  }
+}

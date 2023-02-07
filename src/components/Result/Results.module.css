@@ -1,0 +1,24 @@
+.container {
+  width: inherit;
+  margin-top: 20px;
+  padding-left: 5px;
+}
+.container h2 {
+  font-size: 18px;
+}
+.btnContainer {
+  height: 28vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: first baseline;
+
+  overflow-y: scroll;
+}
+
+.zeroLen {
+  font-size: 20px;
+  margin-top: 10px;
+  color: #fff;
+  text-align: center;
+}

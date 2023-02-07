@@ -1,0 +1,13 @@
+.btnOuterBox {
+  width: 100%;
+  display: grid;
+  margin-bottom: 10px;
+  grid-template-columns: 30px 1fr;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 1.05px;
+}
+
+.btnOuterBox input {
+  accent-color: red;
+}

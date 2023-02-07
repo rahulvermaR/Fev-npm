@@ -1,0 +1,57 @@
+.container {
+  margin: 0 auto;
+  width: 85%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #ffffff;
+}
+.logo {
+  height: 5vh !important;
+}
+.navigationContainer {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.navigationContainer nav {
+  display: flex;
+  gap: 20px;
+}
+.navigationContainer nav div {
+  font-size: 16px;
+}
+.btnBox {
+  display: flex;
+  gap: 10px;
+}
+.btnBox button {
+  width: 95px;
+  padding: 9px 0px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #ffffff1a;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.btnBox button:hover {
+  background-color: #ffffff3e;
+  box-shadow: 0 0 5px 0 #6206eb70;
+}
+.btnLogin {
+  margin-top: 5px;
+  background-color: #31b6a8 !important ;
+}
+.btnLogin:hover {
+  background-color: #3acbbd !important ;
+}
+
+@media (max-width: 400px) {
+  .container {
+    flex-direction: column;
+  }
+}
