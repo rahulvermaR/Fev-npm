@@ -4,7 +4,6 @@ export default function Header() {
   const [width, setWidth] = useState(window.innerWidth);
   const updateDimensions = () => {
     setWidth(window.innerWidth);
-    console.log(width);
   };
   useEffect(() => {
     window.addEventListener("resize", updateDimensions);
