@@ -1,18 +1,23 @@
 .loadingCont {
-  margin-top: 20px;
+  display: inline-block;
+  width: 80px;
+  height: 80px;
 }
-.loading {
-  font-size: 30px;
-  color: #efb4b4;
-  text-align: center;
-  font-weight: 600;
-  animation: spin 1s infinite linear;
+.loadingCont:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #42e9e9;
+  border-color: #42e9e9 transparent #42e9e9 transparent;
+  animation: spinner 1.2s linear infinite;
 }
-@keyframes spin {
+@keyframes spinner {
   0% {
     transform: rotate(0deg);
   }
-
   100% {
     transform: rotate(360deg);
   }
