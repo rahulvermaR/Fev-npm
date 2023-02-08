@@ -44,6 +44,10 @@ const pageSlice = createSlice({
       }
       state.fev = JSON.parse(localStorage.getItem("fevData"));
     },
+    removeFevList(state, action) {
+      state.fev = state.fev.filter((ele) => ele.data.name !== action.payload);
+      localStorage.setItem("fevData", JSON.stringify(state.fev));
+    },
   },
 });
 

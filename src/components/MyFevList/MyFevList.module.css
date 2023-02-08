@@ -1,0 +1,51 @@
+.detailsCont {
+  margin-top: 20px !important;
+  width: 80%;
+  margin: 0 auto;
+  border-top: 2px solid #eee;
+}
+
+.container {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  color: #eee;
+}
+.card {
+  width: 200px;
+  padding: 5px;
+  font-size: 14px;
+  cursor: pointer;
+
+  word-wrap: break-word;
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+}
+.span {
+  color: aqua;
+}
+
+.fevBtn {
+  width: 125px;
+  padding: 9px 0px;
+  font-size: 14px;
+  margin-top: 5px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #31b6a8 !important ;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.fevBtn:hover {
+  background-color: #3acbbd !important ;
+  box-shadow: 0 0 5px 0 #6206eb70;
+}
+.zeroLen {
+  font-size: 20px;
+  margin-top: 10px;
+  color: #fff;
+  text-align: center;
+}

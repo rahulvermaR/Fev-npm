@@ -1,9 +1,11 @@
 import React from "react";
 import { useSelector } from "react-redux";
 import Button from "../Button/Button";
+
 import classes from "./Results.module.css";
 export default function Results(props) {
   const checkedCpmponent = useSelector((st) => st.checkedCpmponent);
+
   const componets = props.data.map((ele) => {
     if (ele.package.name === checkedCpmponent) {
       return (

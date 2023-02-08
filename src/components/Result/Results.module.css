@@ -14,6 +14,7 @@
   align-items: first baseline;
 
   overflow-y: scroll;
+  margin-bottom: 10px;
 }
 
 .zeroLen {
