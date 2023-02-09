@@ -16,6 +16,18 @@
   overflow-y: scroll;
   margin-bottom: 10px;
 }
+.btnContainer::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 10px;
+  background-color: #a699e5;
+}
+.btnContainer::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+.btnContainer::-webkit-scrollbar-thumb:hover {
+  background-color: #220d71;
+}
 
 .zeroLen {
   font-size: 20px;

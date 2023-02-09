@@ -19,10 +19,17 @@
   border-radius: 5px;
   color: #000000;
   background: #ffffff;
+  outline: none;
+  border: 2px solid blue;
 }
 .inputContainer input::placeholder {
   font-size: 16px;
   color: #dddddd;
+}
+
+.inputContainer input:focus {
+  border: 2px solid red;
+  outline: none;
 }
 .error {
   color: red;
